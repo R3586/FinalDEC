@@ -1,0 +1,76 @@
+.results-container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.result-card {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+  margin-top: 20px;
+  background: white;
+  border-radius: 10px;
+  padding: 30px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+  align-items: center;
+}
+
+.result-graph {
+  flex: 1;
+  min-width: 220px;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.confidence-label {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  font-size: 1.6rem;
+  font-weight: 700;
+  color: #333;
+}
+
+.confidence-label small {
+  display: block;
+  font-size: 0.9rem;
+  color: #888;
+}
+
+.result-details {
+  flex: 2;
+  min-width: 300px;
+}
+
+.risk-0 {
+  color: #28a745;
+  font-weight: bold;
+}
+.risk-1 {
+  color: #ffc107;
+  font-weight: bold;
+}
+.risk-2 {
+  color: #dc3545;
+  font-weight: bold;
+}
+
+.recommendations {
+  margin-top: 20px;
+  padding: 15px;
+  background: #f8f9fa;
+  border-radius: 5px;
+}
+
+.no-results {
+  text-align: center;
+  padding: 40px;
+  background: white;
+  border-radius: 10px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+}

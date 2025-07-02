@@ -1,0 +1,41 @@
+/* ==== FOOTER ==== */
+footer {
+  width: 100%;
+  background: #222;
+  color: #fff;
+  padding: 28px 0 18px 0;
+  text-align: center;
+  box-shadow: 0 -2px 8px rgba(0, 0, 0, 0.07);
+  margin-top: auto;
+}
+
+.footer-content {
+  max-width: 1100px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.footer-info h3 {
+  font-size: 1.1rem;
+  font-weight: 500;
+  margin-bottom: 8px;
+  color: #ff944d;
+}
+
+.footer-contact p {
+  font-size: 0.97rem;
+  color: #eee;
+  margin-bottom: 0;
+}
+
+/* ==== RESPONSIVE ==== */
+@media (max-width: 700px) {
+  .footer-content {
+    padding: 0 10px;
+  }
+  .footer-info h3 {
+    font-size: 1rem;
+  }
+}
