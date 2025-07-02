@@ -6,7 +6,7 @@ import psycopg2
 from datetime import datetime
 
 app = Flask(__name__)
-CORS(app, supports_credentials=True)
+CORS(app, origins="https://frontend-dec.onrender.com", supports_credentials=True)
 
 app.secret_key = 'SECRET_KEY'
 
