@@ -3,4 +3,4 @@ flask
 gunicorn
 psycopg2
 flask-cors 
-﻿tensorflow==2.16.2
+﻿tensorflow == 2.16.2
